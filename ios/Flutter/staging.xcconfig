@@ -1,5 +1,5 @@
 //
-//  dev.xcconfig
+//  staging.xcconfig
 //  Runner
 //
 //  Created by Nicolas Hodicq on 27/01/2019.
@@ -9,7 +9,7 @@
 #include "Pods/Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig"
 #include "Generated.xcconfig"
 
-FLUTTER_TARGET=lib/main_dev.dart
+FLUTTER_TARGET=lib/main_staging.dart
 
-bz_bundle = com.bewizyu.bitrise.dev
-bz_bundle_name = Bz Bitrise Dev
+bz_bundle = com.bewizyu.bitrise.staging
+bz_bundle_name = Bz Bitrise Staging

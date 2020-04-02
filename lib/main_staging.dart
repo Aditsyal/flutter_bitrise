@@ -1,11 +1,11 @@
+import 'package:bz_bitrise_sample/environments/staging.dart';
+import 'package:bz_bitrise_sample/environments/widgets/env.dart';
+import 'package:bz_bitrise_sample/my_app.dart';
 import 'package:flutter/material.dart';
-import 'package:flutterbitrisesample/environments/env.dart';
-import 'package:flutterbitrisesample/environments/staging.dart';
-import 'package:flutterbitrisesample/my_app.dart';
 
-void main() {
-  WidgetsFlutterBinding.ensureInitialized();
-  runApp(app);
-}
+void main() => runApp(app);
 
-var app = Env(StagingEnv(), child: MyApp());
+var app = Env(
+  StagingEnv(),
+  child: MyApp(),
+);

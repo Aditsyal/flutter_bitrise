@@ -1,5 +1,5 @@
+import 'package:bz_bitrise_sample/main_prod.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutterbitrisesample/main_prod.dart';
 
 void main() {
   group('ProdEnv', () {
@@ -10,7 +10,7 @@ void main() {
 
     testWidgets('display content', (WidgetTester tester) async {
       await tester.pumpWidget(app);
-      expect(find.text('App to show Bitrise integration'),
+      expect(find.text('This app does nothing, Bewizyu Bitrise Demo'),
           findsOneWidget);
     });
   });

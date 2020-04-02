@@ -1,4 +1,4 @@
-import 'package:flutterbitrisesample/environments/env_interface.dart';
+import 'package:bz_bitrise_sample/environments/env_interface.dart';
 
 class StagingEnv implements EnvInterface {
   @override
