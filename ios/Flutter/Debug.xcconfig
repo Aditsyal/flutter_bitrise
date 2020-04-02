@@ -1,1 +1,4 @@
 #include "Generated.xcconfig"
+
+bz_bundle = com.flutterdevs.flutterbitrisesample.dev
+bz_bundle_name = Flutter Bitrise Dev
