@@ -5,7 +5,7 @@ void main() {
   group('StagingEnv', () {
     testWidgets('display title', (WidgetTester tester) async {
       await tester.pumpWidget(app);
-      expect(find.text('Staging app title'), findsOneWidget);
+      expect(find.text('Staging Flavor'), findsOneWidget);
     });
 
     testWidgets('display content', (WidgetTester tester) async {

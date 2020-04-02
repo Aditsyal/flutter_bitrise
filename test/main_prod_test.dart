@@ -5,7 +5,7 @@ void main() {
   group('ProdEnv', () {
     testWidgets('display title', (WidgetTester tester) async {
       await tester.pumpWidget(app);
-      expect(find.text('Prod app title'), findsOneWidget);
+      expect(find.text('Prod Flavor'), findsOneWidget);
     });
 
     testWidgets('display content', (WidgetTester tester) async {

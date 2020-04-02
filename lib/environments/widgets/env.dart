@@ -13,10 +13,11 @@ class Env extends InheritedWidget {
 
   EnvInterface get env => _env;
 
+
   @override
   bool updateShouldNotify(Env old) => false;
 
   static Env of(BuildContext context) {
-    return context.inheritFromWidgetOfExactType(Env) as Env;
+    return context.dependOnInheritedWidgetOfExactType(aspect: Env);
   }
 }
