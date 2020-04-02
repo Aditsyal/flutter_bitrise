@@ -1,4 +1,4 @@
-package com.flutterdevs.flutterbitrisesample;
+package com.bewizyu.bzbitrisesample;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;
